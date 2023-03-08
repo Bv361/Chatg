@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Application</title>
+  <style>
+    /* CSS for chat messages container */
+    #chat-container {
+      height: 400px;
+      overflow-y: scroll;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    /* CSS for chat message */
+    .chat-message {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat-container"></div>
+  <form id="message-form">
+    <input type="text" id="message-input">
+    <button type="submit">Send</button>
+  </form>
+
+  <script src="chat.js"></script>
+</body>
+</html>
